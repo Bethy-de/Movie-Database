@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎬 Movie Database - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎥 Movie Database</h1>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <a href="index.html" class="nav-link active">🏠 Home</a>
+            <a href="browse.php" class="nav-link">🔍 Browse</a>
+            <a href="favorites.php" class="nav-link">❤️ Favorites</a>
+            <a href="#" id="authButton" class="nav-link auth-btn">🔑 Sign In</a>
+        </div>
+    </nav>
+
+    <div class="search-container">
+        <input id="movieSearch" placeholder="Search movies...">
+        <div id="searchResults"></div>
+    </div>
+
+    <div id="result"></div>
+
+    <h2 class="recent-title">🔥 Recent Movies</h2>
+    <div id="recentMovies"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
